@@ -2,3 +2,5 @@
 
 !.gitignore
 !*.sublime-snippet
+!*.sublime-keymap
+!Preferences.sublime-settings

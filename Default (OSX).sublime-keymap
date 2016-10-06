@@ -1,0 +1,16 @@
+[
+	{ "keys": ["ctrl+a"], "command": "alignment" },
+	{ 
+		"keys": ["super+s"], 
+		"command": "chain", 
+		"args": {
+			"commands": [
+				["typescript_format_document"],
+				["save"]
+			]
+		},
+		"context": [
+			{ "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx" }
+		]
+	}
+]
