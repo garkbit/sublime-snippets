@@ -1,13 +1,11 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"font_size": 12,
+	"detect_indentation": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"typescript_auto_format": true,
-	"typescript_tsdk": "/usr/local/lib/node_modules/typescript/lib",
-	"detect_indentation": false,
-	// "translate_tabs_to_spaces": true,
-	"tab_size": 4
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"typescript_tsdk": "/usr/local/lib/node_modules/typescript/lib/"
 }

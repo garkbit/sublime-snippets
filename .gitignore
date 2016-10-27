@@ -1,6 +1,6 @@
-*
-
-!.gitignore
-!*.sublime-snippet
-!*.sublime-keymap
-!Preferences.sublime-settings
+*.cache
+*.crt
+Package Control.*
+SublimeLinter
+*.sublime-workspace
+.DS_Store
