@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.warn('$TM_FILENAME: $1: %s', $1);
+console.warn('WARN >> $TM_FILENAME:$TM_LINE_NUMBER: $1: %s', $1);
 ]]></content>
 	<tabTrigger>cws</tabTrigger>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

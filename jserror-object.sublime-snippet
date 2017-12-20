@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.error('$TM_FILENAME: $1: %O', $1);
+console.error('ERROR >> $TM_FILENAME:$TM_LINE_NUMBER: $1: %O', $1);
 ]]></content>
 	<tabTrigger>ceo</tabTrigger>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
